@@ -1,0 +1,23 @@
+<form id="releaseForm">
+  <input type="text" name="title" placeholder="Track Title" required>
+
+  <input type="text" name="artist" placeholder="Artist Name" required>
+
+  <textarea name="description"
+    placeholder="Description"></textarea>
+
+  <input type="file"
+    name="audio"
+    accept="audio/*"
+    multiple
+    required>
+
+  <input type="file"
+    name="artwork"
+    accept="image/*"
+    required>
+
+  <button type="submit">
+    Upload To Distribution Server
+  </button>
+</form>
